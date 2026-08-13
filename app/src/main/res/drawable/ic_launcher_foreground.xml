@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Theater marquee: a sign board over a row of bulbs -->
+    <path
+        android:fillColor="#FFC94A"
+        android:pathData="M36,34 L72,34 L78,60 L30,60 Z" />
+    <path
+        android:fillColor="#1B1B1F"
+        android:pathData="M42,42 L66,42 L67.5,52 L40.5,52 Z" />
+    <group>
+        <path
+            android:fillColor="#FFC94A"
+            android:pathData="M33,68 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+        <path
+            android:fillColor="#FFC94A"
+            android:pathData="M44,68 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+        <path
+            android:fillColor="#FFC94A"
+            android:pathData="M55,68 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+        <path
+            android:fillColor="#FFC94A"
+            android:pathData="M66,68 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+        <path
+            android:fillColor="#FFC94A"
+            android:pathData="M77,68 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    </group>
+</vector>

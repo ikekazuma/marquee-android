@@ -14,6 +14,7 @@ internal fun CommonExtension.configureKotlinAndroid() {
     compileSdk = COMPILE_SDK
     compileSdkMinor = COMPILE_SDK_MINOR
     defaultConfig.minSdk = MIN_SDK
+    defaultConfig.testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
     compileOptions.apply {
         sourceCompatibility = JavaVersion.VERSION_17

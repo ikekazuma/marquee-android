@@ -25,5 +25,7 @@ internal fun Project.configureAndroidCompose(commonExtension: CommonExtension) {
         add("debugImplementation", libs.library("androidx-compose-ui-tooling"))
         add("debugImplementation", libs.library("androidx-compose-ui-test-manifest"))
         add("androidTestImplementation", libs.library("androidx-compose-ui-test-junit4"))
+        // ui-test-junit4 pulls in Espresso 3.5.0, which crashes on API 36+ (InputManager.getInstance)
+        add("androidTestImplementation", libs.library("androidx-test-espresso-core"))
     }
 }
