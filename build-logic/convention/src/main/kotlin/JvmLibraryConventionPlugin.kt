@@ -10,6 +10,7 @@ import org.jetbrains.kotlin.gradle.dsl.KotlinJvmProjectExtension
 class JvmLibraryConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) = with(target) {
         pluginManager.apply(libs.pluginId("kotlin-jvm"))
+        pluginManager.apply("marquee.quality")
 
         extensions.configure<KotlinJvmProjectExtension> {
             jvmToolchain(17)

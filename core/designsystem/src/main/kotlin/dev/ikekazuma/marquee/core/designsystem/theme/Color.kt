@@ -10,12 +10,14 @@ private val MarqueeAmberLight = Color(0xFFFFC94A)
 private val MarqueeRed = Color(0xFF8E2A2A)
 private val MarqueeRedLight = Color(0xFFFF8A80)
 
-internal val LightColors = lightColorScheme(
-    primary = MarqueeAmber,
-    secondary = MarqueeRed,
-)
+internal val LightColors =
+    lightColorScheme(
+        primary = MarqueeAmber,
+        secondary = MarqueeRed,
+    )
 
-internal val DarkColors = darkColorScheme(
-    primary = MarqueeAmberLight,
-    secondary = MarqueeRedLight,
-)
+internal val DarkColors =
+    darkColorScheme(
+        primary = MarqueeAmberLight,
+        secondary = MarqueeRedLight,
+    )

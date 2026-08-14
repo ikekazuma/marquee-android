@@ -14,12 +14,13 @@ fun MarqueeTheme(
     content: @Composable () -> Unit,
 ) {
     val context = LocalContext.current
-    val colorScheme = when {
-        dynamicColor && darkTheme -> dynamicDarkColorScheme(context)
-        dynamicColor -> dynamicLightColorScheme(context)
-        darkTheme -> DarkColors
-        else -> LightColors
-    }
+    val colorScheme =
+        when {
+            dynamicColor && darkTheme -> dynamicDarkColorScheme(context)
+            dynamicColor -> dynamicLightColorScheme(context)
+            darkTheme -> DarkColors
+            else -> LightColors
+        }
 
     MaterialTheme(
         colorScheme = colorScheme,

@@ -10,6 +10,7 @@ import org.gradle.kotlin.dsl.configure
 class AndroidApplicationConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) = with(target) {
         pluginManager.apply(libs.pluginId("android-application"))
+        pluginManager.apply("marquee.quality")
 
         extensions.configure<ApplicationExtension> {
             configureKotlinAndroid()

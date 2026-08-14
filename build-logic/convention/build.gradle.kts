@@ -13,6 +13,8 @@ dependencies {
     compileOnly(libs.kotlin.gradle.plugin)
     compileOnly(libs.compose.gradle.plugin)
     compileOnly(libs.ksp.gradle.plugin)
+    compileOnly(libs.ktlint.gradle.plugin)
+    compileOnly(libs.detekt.gradle.plugin)
 }
 
 gradlePlugin {
@@ -36,6 +38,10 @@ gradlePlugin {
         register("hilt") {
             id = "marquee.hilt"
             implementationClass = "HiltConventionPlugin"
+        }
+        register("quality") {
+            id = "marquee.quality"
+            implementationClass = "QualityConventionPlugin"
         }
         register("jvmLibrary") {
             id = "marquee.jvm.library"

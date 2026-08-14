@@ -8,14 +8,16 @@ import org.junit.Rule
 import org.junit.Test
 
 class MarqueeAppTest {
-
     @get:Rule
     val composeTestRule = createComposeRule()
 
     @Test
     fun showsPlaceholder() {
-        val placeholder = InstrumentationRegistry.getInstrumentation()
-            .targetContext.getString(R.string.app_placeholder)
+        val placeholder =
+            InstrumentationRegistry
+                .getInstrumentation()
+                .targetContext
+                .getString(R.string.app_placeholder)
 
         composeTestRule.setContent { MarqueeApp() }
 

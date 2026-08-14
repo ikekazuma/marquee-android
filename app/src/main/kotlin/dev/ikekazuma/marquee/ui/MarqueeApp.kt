@@ -17,9 +17,10 @@ import dev.ikekazuma.marquee.core.designsystem.theme.MarqueeTheme
 fun MarqueeApp() {
     Scaffold { innerPadding ->
         Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(innerPadding),
+            modifier =
+                Modifier
+                    .fillMaxSize()
+                    .padding(innerPadding),
             contentAlignment = Alignment.Center,
         ) {
             Text(text = stringResource(R.string.app_placeholder))
