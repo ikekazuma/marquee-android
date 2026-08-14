@@ -26,4 +26,6 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "marquee-android"
 
 include(":app")
+include(":core:common")
 include(":core:designsystem")
+include(":core:model")
