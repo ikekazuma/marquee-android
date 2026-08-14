@@ -11,4 +11,5 @@ dependencies {
     implementation(libs.androidx.paging.compose)
 
     testImplementation(libs.androidx.paging.testing)
+    androidTestImplementation(libs.androidx.test.ext.junit)
 }

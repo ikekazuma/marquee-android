@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nowplaying_title">上映中</string>
+    <string name="nowplaying_empty">上映中の映画が見つかりませんでした</string>
+    <string name="nowplaying_append_retry">続きを読み込む</string>
+    <string name="nowplaying_append_failed">続きを読み込めませんでした</string>
+</resources>

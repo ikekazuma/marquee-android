@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ds_poster_of">%s のポスター</string>
+    <string name="ds_no_poster">ポスター未登録</string>
+    <string name="ds_release_date_unknown">公開日未定</string>
+
+    <string name="ds_error_network">ネットワークに接続できませんでした</string>
+    <string name="ds_error_unauthorized">アプリの設定に問題があります。TMDB のアクセストークンを確認してください</string>
+    <string name="ds_error_http">読み込みに失敗しました(エラー %1$d)</string>
+    <string name="ds_error_unknown">読み込みに失敗しました</string>
+    <string name="ds_retry">再試行</string>
+</resources>
