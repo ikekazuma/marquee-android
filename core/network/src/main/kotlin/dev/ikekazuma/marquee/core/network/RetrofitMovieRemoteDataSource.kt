@@ -31,12 +31,19 @@ internal class RetrofitMovieRemoteDataSource
             }
     }
 
+private const val HTTP_UNAUTHORIZED = 401
+
 // The single place where exceptions become AppError; nothing above this layer sees a throwable.
 private inline fun <T> runCatchingApi(block: () -> T): AppResult<T> =
     try {
         AppResult.Success(block())
     } catch (e: HttpException) {
-        AppResult.Failure(AppError.Http(e.code()))
+        AppResult.Failure(
+            when (e.code()) {
+                HTTP_UNAUTHORIZED -> AppError.Unauthorized
+                else -> AppError.Http(e.code())
+            },
+        )
     } catch (_: IOException) {
         AppResult.Failure(AppError.Network)
     } catch (_: Exception) {

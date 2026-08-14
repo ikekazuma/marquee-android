@@ -12,6 +12,9 @@ sealed interface AppResult<out T> {
 sealed interface AppError {
     data object Network : AppError
 
+    // 401. The app ships a static read token, so the user cannot recover from this: do not offer retry.
+    data object Unauthorized : AppError
+
     data class Http(val code: Int) : AppError
 
     data object Unknown : AppError

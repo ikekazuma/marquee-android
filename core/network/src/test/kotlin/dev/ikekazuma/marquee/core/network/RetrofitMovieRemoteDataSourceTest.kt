@@ -110,13 +110,23 @@ class RetrofitMovieRemoteDataSourceTest {
     @Test
     fun httpErrors_mapToHttpAppError() =
         runTest {
-            listOf(401, 404, 500).forEach { code ->
+            listOf(404, 429, 500).forEach { code ->
                 server.enqueue(MockResponse().setResponseCode(code).setBody("{}"))
 
                 val result = dataSource.nowPlaying(page = 1)
 
                 assertEquals(AppError.Http(code), (result as AppResult.Failure).error)
             }
+        }
+
+    @Test
+    fun unauthorized_mapsToUnauthorizedAppError() =
+        runTest {
+            server.enqueue(MockResponse().setResponseCode(401).setBody("{}"))
+
+            val result = dataSource.nowPlaying(page = 1)
+
+            assertEquals(AppError.Unauthorized, (result as AppResult.Failure).error)
         }
 
     @Test
