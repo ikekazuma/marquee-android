@@ -1,0 +1,320 @@
+{
+  "adult": false,
+  "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+  "belongs_to_collection": {
+    "id": 531241,
+    "name": "スパイダーマン (MCU) シリーズ",
+    "poster_path": "/yeba3Y820OjApZO9aJevDsNeMEd.jpg",
+    "backdrop_path": "/qG9rYMeEGyxioMZcnHrI9OwHvP5.jpg"
+  },
+  "budget": 225000000,
+  "genres": [
+    {
+      "id": 878,
+      "name": "サイエンスフィクション"
+    },
+    {
+      "id": 28,
+      "name": "アクション"
+    },
+    {
+      "id": 12,
+      "name": "アドベンチャー"
+    }
+  ],
+  "homepage": "https://spiderman-movie.jp",
+  "id": 969681,
+  "imdb_id": "tt22084616",
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_title": "Spider-Man: Brand New Day",
+  "overview": "愛する人たちを守るために、彼らの記憶から自らの存在を消すという決断をした『スパイダーマン：ノー・ウェイ・ホーム』の出来事から４年。大人になったピーター・パーカーはスパイダーマンとして、ニューヨークの人々を守り、彼らを脅かす犯罪と戦う日々に全力を尽くしていた。そんななか、人々の期待を背負う彼の体に驚くべき身体的変異が起こり始める。同時に、街では姿なき不可解な犯罪が頻発。“親愛なる隣人”に、かつて直面したことのない大きな脅威が迫る──。",
+  "popularity": 1006.0211,
+  "poster_path": "/hvbs76wGMZYqJSvaRps5jDzHUhN.jpg",
+  "production_companies": [
+    {
+      "id": 420,
+      "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+      "name": "Marvel Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 5,
+      "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+      "name": "Columbia Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 84041,
+      "logo_path": "/nw4kyc29QRpNtFbdsBHkRSFavvt.png",
+      "name": "Pascal Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 22213,
+      "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+      "name": "TSG Entertainment",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2026-07-29",
+  "revenue": 1812566077,
+  "runtime": 145,
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "誰一人、僕を覚えていなくても守り続ける。",
+  "title": "スパイダーマン：ブランド・ニュー・デイ",
+  "video": false,
+  "vote_average": 7.873,
+  "vote_count": 1659,
+  "credits": {
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1136406,
+        "known_for_department": "Acting",
+        "name": "トム・ホランド",
+        "original_name": "Tom Holland",
+        "popularity": 29.6798,
+        "profile_path": "/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg",
+        "cast_id": 4,
+        "character": "Peter Parker / Spider-Man",
+        "credit_id": "630cbd43ede1b00083c3badf",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 505710,
+        "known_for_department": "Acting",
+        "name": "ゼンデイヤ",
+        "original_name": "Zendaya",
+        "popularity": 18.0013,
+        "profile_path": "/3WdOloHpjtjL96uVOhFRRCcYSwq.jpg",
+        "cast_id": 49,
+        "character": "MJ",
+        "credit_id": "6855e165f57c8fc6a7ae16ed",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 103,
+        "known_for_department": "Acting",
+        "name": "マーク・ラファロ",
+        "original_name": "Mark Ruffalo",
+        "popularity": 7.3721,
+        "profile_path": "/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg",
+        "cast_id": 55,
+        "character": "Bruce Banner / Hulk",
+        "credit_id": "688d2b3704c5bd1f52de627a",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 19498,
+        "known_for_department": "Acting",
+        "name": "ジョン・バーンサル",
+        "original_name": "Jon Bernthal",
+        "popularity": 18.244,
+        "profile_path": "/o0t6EVkJOrFAjESDilZUlf46IbQ.jpg",
+        "cast_id": 48,
+        "character": "Frank Castle / Punisher",
+        "credit_id": "6855e0a503e381eb03fc71c3",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1649152,
+        "known_for_department": "Acting",
+        "name": "ジェイコブ・バタロン",
+        "original_name": "Jacob Batalon",
+        "popularity": 8.2387,
+        "profile_path": "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
+        "cast_id": 50,
+        "character": "Ned Leeds",
+        "credit_id": "6855e1741460d776bcae16d3",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1590797,
+        "known_for_department": "Acting",
+        "name": "セイディー・シンク",
+        "original_name": "Sadie Sink",
+        "popularity": 29.4714,
+        "profile_path": "/92FddzBfK50XOUbtwjqHPraoGHy.jpg",
+        "cast_id": 30,
+        "character": "Jean Grey",
+        "credit_id": "67d1c1557761a3a68f60db95",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1373737,
+        "known_for_department": "Acting",
+        "name": "フローレンス・ピュー",
+        "original_name": "Florence Pugh",
+        "popularity": 13.3011,
+        "profile_path": "/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg",
+        "cast_id": 233,
+        "character": "Yelena Belova / Black Widow",
+        "credit_id": "6a6965ee63534d03628620b1",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 59693,
+        "known_for_department": "Acting",
+        "name": "ライザ・コロン＝ザヤス",
+        "original_name": "Liza Colón-Zayas",
+        "popularity": 2.4199,
+        "profile_path": "/qBb5eYEoZAlStrRXvsFlKukKJG8.jpg",
+        "cast_id": 62,
+        "character": "Detective Jean DeWolff",
+        "credit_id": "6892802b7f4f75e1a499168d",
+        "order": 7
+      }
+    ],
+    "crew": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 10850,
+        "known_for_department": "Production",
+        "name": "ケヴィン・ファイギ",
+        "original_name": "Kevin Feige",
+        "popularity": 3.5341,
+        "profile_path": "/kCBqXZ5PT5udYGEj2wfTSFbLMvT.jpg",
+        "credit_id": "628d559ed48cee2cbfca858a",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1425616,
+        "known_for_department": "Production",
+        "name": "エイミー・パスカル",
+        "original_name": "Amy Pascal",
+        "popularity": 2.0165,
+        "profile_path": "/cZ526e4oPN1i44Q0BxYW8nOtrzR.jpg",
+        "credit_id": "65e51be61ad93b01860898a0",
+        "department": "Production",
+        "job": "Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 57027,
+        "known_for_department": "Production",
+        "name": "ルイス・デスポジート",
+        "original_name": "Louis D'Esposito",
+        "popularity": 2.3961,
+        "profile_path": "/ewtzT2ZMIX2DNyGUUkHLn36fjgF.jpg",
+        "credit_id": "641a69d3688cd0010c5f38d8",
+        "department": "Production",
+        "job": "Executive Producer"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 7624,
+        "known_for_department": "Writing",
+        "name": "スタン・リー",
+        "original_name": "Stan Lee",
+        "popularity": 4.7198,
+        "profile_path": "/kKeyWoFtTqOPsbmwylNHmuB3En9.jpg",
+        "credit_id": "6631a34a99d5c3012955e914",
+        "department": "Writing",
+        "job": "Comic Book"
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1144604,
+        "known_for_department": "Directing",
+        "name": "デスティン・ダニエル・クレットン",
+        "original_name": "Destin Daniel Cretton",
+        "popularity": 4.0394,
+        "profile_path": "/wtA2EtkvCyxu4oWECzqAF7G8IZH.jpg",
+        "credit_id": "66df615d4ab203f9ceb97151",
+        "department": "Directing",
+        "job": "Director"
+      }
+    ]
+  },
+  "videos": {
+    "results": [
+      {
+        "iso_639_1": "ja",
+        "iso_3166_1": "JP",
+        "name": "彼は出会い、友情を育み、恋をして、\"忘れられること\"を選んだ。すべての愛する人たちを、守るために──　映画『スパイダーマン：ブランド・ニュー・デイ』＜公開直前！最終予告＞7月31日（金）新章開幕",
+        "key": "F358F3Nso3o",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "id": "6a6a251bc06f0ca66b7409b1",
+        "published_at": "2026-07-21T16:00:39.000Z"
+      },
+      {
+        "iso_639_1": "ja",
+        "iso_3166_1": "JP",
+        "name": "『スパイダーマン：ブランド・ニュー・デイ』日本語吹替版予告　7月31日（金）＜新章開幕＞ #BrandNew",
+        "key": "cqb9FrRbACk",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "id": "6a6a24fba89e249598bb7497",
+        "published_at": "2026-07-09T23:20:17.000Z"
+      },
+      {
+        "iso_639_1": "ja",
+        "iso_3166_1": "JP",
+        "name": "【全世界初解禁！】待望の最新作『スパイダーマン：ブランド・ニュー・デイ』予告編 ＜７月３１日（金）日米同時公開決定！＞",
+        "key": "8n96LS2Pfak",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "id": "69ba9047181da5e9383bab31",
+        "published_at": "2026-03-18T11:06:33.000Z"
+      },
+      {
+        "iso_639_1": "ja",
+        "iso_3166_1": "JP",
+        "name": "撮影初日（字幕版）",
+        "key": "Vxm-b3L15Ho",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Behind the Scenes",
+        "official": true,
+        "id": "689a61717335a303ce6d7243",
+        "published_at": "2025-08-10T14:40:34.000Z"
+      }
+    ]
+  }
+}

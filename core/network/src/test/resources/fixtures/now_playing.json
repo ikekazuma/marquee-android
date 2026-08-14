@@ -1,0 +1,118 @@
+{
+  "dates": {
+    "maximum": "2026-08-19",
+    "minimum": "2026-07-08"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12
+      ],
+      "id": 969681,
+      "title": "スパイダーマン：ブランド・ニュー・デイ",
+      "original_language": "en",
+      "original_title": "Spider-Man: Brand New Day",
+      "overview": "愛する人たちを守るために、彼らの記憶から自らの存在を消すという決断をした『スパイダーマン：ノー・ウェイ・ホーム』の出来事から４年。大人になったピーター・パーカーはスパイダーマンとして、ニューヨークの人々を守り、彼らを脅かす犯罪と戦う日々に全力を尽くしていた。そんななか、人々の期待を背負う彼の体に驚くべき身体的変異が起こり始める。同時に、街では姿なき不可解な犯罪が頻発。“親愛なる隣人”に、かつて直面したことのない大きな脅威が迫る──。",
+      "popularity": 1006.0211,
+      "poster_path": "/hvbs76wGMZYqJSvaRps5jDzHUhN.jpg",
+      "release_date": "2026-07-31",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.875,
+      "vote_count": 1662
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751,
+        14
+      ],
+      "id": 1315772,
+      "title": "ミニオンズ＆モンスターズ",
+      "original_language": "en",
+      "original_title": "Minions & Monsters",
+      "overview": "最強最悪のボスを求めて旅するミニオンズがたどり着いたのは夢あふれるハリウッドの世界。ひょんなことから自分たちでモンスター映画を作ろうと本物のモンスターを召喚するが…超危険なヤツらが次々と解き放たれ、街は大パニックに！さらに仲間割れまで勃発し、ミニオンズ史上最大のピンチが訪れる。大切な仲間と力を合わせれば…きっと世界を救える…ハズ！？",
+      "popularity": 332.7628,
+      "poster_path": "/8wYHlLEIrEKvbfj83B11g7FKFd8.jpg",
+      "release_date": "2026-08-07",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.294,
+      "vote_count": 520
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1339713,
+      "title": "オブセッション 災愛",
+      "original_language": "en",
+      "original_title": "Obsession",
+      "overview": "主人公は孤独で内向的な青年ベア（マイケル・ジョンストン）。想いを寄せる女性ニッキー（インディ・ナヴァレッティ）との距離を縮めたい一心で、“願いを叶える”という不気味なまじない「ワン・ウィッシュ・ウィロー」に手を出したことから、彼の日常は少しずつ狂い始める。純粋だったはずの恋愛感情は執着へと変貌し、“最愛”が“災愛”へと反転していく──。",
+      "popularity": 248.3267,
+      "poster_path": "/vJIRyV24YoZcF79EdmddbX6MlQP.jpg",
+      "release_date": "2026-07-17",
+      "softcore": false,
+      "video": false,
+      "vote_average": 8.229,
+      "vote_count": 4627
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        35,
+        12
+      ],
+      "id": 1108427,
+      "title": "モアナと伝説の海",
+      "original_language": "en",
+      "original_title": "Moana",
+      "overview": "",
+      "popularity": 202.781,
+      "poster_path": "/vqv4shUzZ4rk4rtqXNifAD8yevx.jpg",
+      "release_date": "2026-07-31",
+      "softcore": false,
+      "video": false,
+      "vote_average": 6.0,
+      "vote_count": 193
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+      "genre_ids": [
+        878,
+        9648,
+        53
+      ],
+      "id": 1101383,
+      "title": "オークストリートの異変",
+      "original_language": "en",
+      "original_title": "The End of Oak Street",
+      "overview": "郊外の住宅地に暮らすデニースとグレッグは夫婦仲がギクシャクしており、子供たちも気をもんでいた。しかし町が深夜に謎の閃光に包まれ、翌朝 目覚めると信じられない事態になっていた。",
+      "popularity": 133.9196,
+      "poster_path": "/kwp7kVAJjCDMEqWB8DO30S21fwK.jpg",
+      "release_date": "2026-08-14",
+      "softcore": false,
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 61
+    }
+  ],
+  "total_pages": 4,
+  "total_results": 65
+}
