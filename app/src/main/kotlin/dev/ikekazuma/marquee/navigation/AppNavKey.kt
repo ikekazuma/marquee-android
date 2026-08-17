@@ -10,4 +10,7 @@ import kotlinx.serialization.Serializable
 sealed interface AppNavKey : NavKey {
     @Serializable
     data object NowPlaying : AppNavKey
+
+    @Serializable
+    data class Detail(val movieId: Int) : AppNavKey
 }

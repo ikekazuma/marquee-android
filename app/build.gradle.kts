@@ -18,8 +18,10 @@ android {
 dependencies {
     implementation(projects.core.designsystem)
     implementation(projects.core.model)
+    implementation(projects.feature.detail)
     implementation(projects.feature.nowplaying)
 
+    implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.navigation3.runtime)
     implementation(libs.androidx.navigation3.ui)
     implementation(libs.androidx.lifecycle.viewmodel.navigation3)
