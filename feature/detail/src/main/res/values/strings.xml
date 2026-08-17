@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="detail_back">戻る</string>
+    <string name="detail_overview">あらすじ</string>
+    <string name="detail_overview_missing">あらすじは登録されていません</string>
+    <string name="detail_cast">キャスト</string>
+    <string name="detail_runtime">%1$d分</string>
+    <string name="detail_watch_trailer">予告編を見る</string>
+    <string name="detail_release_date_unknown">公開日未定</string>
+</resources>
