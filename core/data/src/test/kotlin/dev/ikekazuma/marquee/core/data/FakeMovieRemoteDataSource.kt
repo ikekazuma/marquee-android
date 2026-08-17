@@ -18,6 +18,22 @@ internal fun movie(id: Int) =
         voteAverage = 7.5,
     )
 
+internal fun movieDetail(id: Int) =
+    MovieDetail(
+        id = MovieId(id),
+        title = "Movie $id",
+        originalTitle = "Original $id",
+        overview = "Overview $id",
+        posterUrl = null,
+        backdropUrl = null,
+        releaseDate = LocalDate.of(2026, 8, 1),
+        runtimeMinutes = 120,
+        genres = listOf("ドラマ"),
+        voteAverage = 7.5,
+        cast = emptyList(),
+        trailerYouTubeKey = null,
+    )
+
 /** Serves [totalPages] pages of [pageSize] movies, or fails with [failure] when set. */
 internal class FakeMovieRemoteDataSource(
     private val totalPages: Int = 3,
@@ -43,5 +59,8 @@ internal class FakeMovieRemoteDataSource(
 
     override suspend fun search(query: String, page: Int): AppResult<PagedMovies> = nowPlaying(page)
 
-    override suspend fun movieDetail(id: MovieId): AppResult<MovieDetail> = AppResult.Failure(AppError.Unknown)
+    override suspend fun movieDetail(id: MovieId): AppResult<MovieDetail> {
+        failure?.let { return AppResult.Failure(it) }
+        return AppResult.Success(movieDetail(id.value))
+    }
 }

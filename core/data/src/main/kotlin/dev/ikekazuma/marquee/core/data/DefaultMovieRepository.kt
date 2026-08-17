@@ -3,9 +3,12 @@ package dev.ikekazuma.marquee.core.data
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
+import dev.ikekazuma.marquee.core.common.AppResult
 import dev.ikekazuma.marquee.core.data.paging.MoviePagingSource
 import dev.ikekazuma.marquee.core.data.paging.TMDB_PAGE_SIZE
 import dev.ikekazuma.marquee.core.model.Movie
+import dev.ikekazuma.marquee.core.model.MovieDetail
+import dev.ikekazuma.marquee.core.model.MovieId
 import dev.ikekazuma.marquee.core.network.MovieRemoteDataSource
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
@@ -27,6 +30,8 @@ internal class DefaultMovieRepository
                     ),
                 pagingSourceFactory = { MoviePagingSource(remoteDataSource::nowPlaying) },
             ).flow
+
+        override suspend fun movieDetail(id: MovieId): AppResult<MovieDetail> = remoteDataSource.movieDetail(id)
 
         private companion object {
             const val PREFETCH_DISTANCE = 5

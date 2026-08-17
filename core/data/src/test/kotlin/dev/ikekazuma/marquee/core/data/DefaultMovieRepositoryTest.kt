@@ -1,6 +1,8 @@
 package dev.ikekazuma.marquee.core.data
 
 import androidx.paging.testing.asSnapshot
+import dev.ikekazuma.marquee.core.common.AppError
+import dev.ikekazuma.marquee.core.common.AppResult
 import dev.ikekazuma.marquee.core.model.MovieId
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
@@ -43,5 +45,26 @@ class DefaultMovieRepositoryTest {
 
             assertEquals(40, items.size)
             assertEquals(listOf(1, 2), remote.requestedPages)
+        }
+
+    @Test
+    fun movieDetail_returnsRemoteResult() =
+        runTest {
+            val repository = DefaultMovieRepository(FakeMovieRemoteDataSource())
+
+            val result = repository.movieDetail(MovieId(42))
+
+            assertEquals(MovieId(42), (result as AppResult.Success).data.id)
+        }
+
+    @Test
+    fun movieDetail_propagatesFailure() =
+        runTest {
+            val remote = FakeMovieRemoteDataSource().apply { failure = AppError.Network }
+            val repository = DefaultMovieRepository(remote)
+
+            val result = repository.movieDetail(MovieId(42))
+
+            assertEquals(AppError.Network, (result as AppResult.Failure).error)
         }
 }

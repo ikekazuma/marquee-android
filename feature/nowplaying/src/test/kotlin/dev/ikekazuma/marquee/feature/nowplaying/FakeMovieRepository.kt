@@ -1,8 +1,11 @@
 package dev.ikekazuma.marquee.feature.nowplaying
 
 import androidx.paging.PagingData
+import dev.ikekazuma.marquee.core.common.AppError
+import dev.ikekazuma.marquee.core.common.AppResult
 import dev.ikekazuma.marquee.core.data.MovieRepository
 import dev.ikekazuma.marquee.core.model.Movie
+import dev.ikekazuma.marquee.core.model.MovieDetail
 import dev.ikekazuma.marquee.core.model.MovieId
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
@@ -25,4 +28,6 @@ internal class FakeMovieRepository(private val movies: List<Movie> = (1..3).map(
         pagerCallCount++
         return flowOf(PagingData.from(movies))
     }
+
+    override suspend fun movieDetail(id: MovieId): AppResult<MovieDetail> = AppResult.Failure(AppError.Unknown)
 }
